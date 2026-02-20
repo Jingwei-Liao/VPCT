@@ -42,10 +42,14 @@ We propose a viewport-based pipeline to replace the traditional compression pipe
 
 
 ## Neural Viewport Codec Overview
-The figure below illustrates the structure overview of the proposed neural viewport codec. Our method is compatible with existing 2D neural image compression methods, where the proposed VPCT module plays a crucial role in transforming conventional 2D image codecs into a viewport-based codec. 
-![ReferenceWVPCT](./assets/vpct-General.png)
+The figure below illustrates the structure overview of the proposed neural viewport codec. Our method is compatible with existing 2D neural image compression methods, where the proposed Viewport Context (VPCT) module plays a crucial role in transforming conventional 2D image codecs into a viewport-based codec. 
 
-## Model Introducing
+<p align="center">
+  <img src="./assets/vpct-General.png" width="30%" />
+  <img src="./assets/overall_structure_of_vpct.png" width="48%" />
+</p>
+
+## Detailed Structure of the Compression Model
 This code demonstrates the performance of the Reference Entropy Model with VPCT. The model weights and test dataset are stored in an anonymous Google Drive, and will be automatically downloaded when running the test code. The training code and the code about jointing VPCT with other entropy models will also be opened after our work being accepted. The figure below illustrates the detailed structure of the compression model.
 
 ![ReferenceWVPCT](./assets/VPCT-ReferenceWVPCT.png)
