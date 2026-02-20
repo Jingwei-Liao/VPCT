@@ -1,4 +1,4 @@
-# The code for "Viewport-based Neural 360$\degree$ Image Compression"
+# The code for "Viewport-based Neural 360° Image Compression"
 
 ## Experiment Environment
 The proposed code was only tested on the ubuntu system. Please use the following script on the ubuntu system. Thank you!
