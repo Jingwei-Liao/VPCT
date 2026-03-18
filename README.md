@@ -16,7 +16,7 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 ## Performance Comparison
 
-<table style="width: 100%; table-layout: fixed;">
+<table width="100%">
   <tr>
     <td width="4%"></td>
     <td align="center"><b>LIC360 (1K)</b></td>
@@ -28,27 +28,27 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
     <td align="center" width="4%">
       <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-PSNR</div>
     </td>
-    <td><img src="./assets/vpsnr_1k_new.png" alt="VPSNR 1K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vpsnr_2k_new.png" alt="VPSNR 2K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vpsnr_4k_new.png" alt="VPSNR 4K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vpsnr_8k_new.png" alt="VPSNR 8K" style="width: 100%; height: auto; display: block;" /></td>
+    <td><img src="./assets/vpsnr_1k_new.png" alt="VPSNR 1K" width="220" height="162" /></td>
+    <td><img src="./assets/vpsnr_2k_new.png" alt="VPSNR 2K" width="220" height="162" /></td>
+    <td><img src="./assets/vpsnr_4k_new.png" alt="VPSNR 4K" width="220" height="162" /></td>
+    <td><img src="./assets/vpsnr_8k_new.png" alt="VPSNR 8K" width="220" height="162" /></td>
   </tr>
   <tr>
     <td align="center" width="4%">
       <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-SSIM</div>
     </td>
-    <td><img src="./assets/vssim_1k_new.png" alt="VSSIM 1K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vssim_2k_new.png" alt="VSSIM 2K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vssim_4k_new.png" alt="VSSIM 4K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vssim_8k_new.png" alt="VSSIM 8K" style="width: 100%; height: auto; display: block;" /></td>
+    <td><img src="./assets/vssim_1k_new.png" alt="VSSIM 1K" width="220" height="162" /></td>
+    <td><img src="./assets/vssim_2k_new.png" alt="VSSIM 2K" width="220" height="162" /></td>
+    <td><img src="./assets/vssim_4k_new.png" alt="VSSIM 4K" width="220" height="162" /></td>
+    <td><img src="./assets/vssim_8k_new.png" alt="VSSIM 8K" width="220" height="162" /></td>
   </tr>
   <tr>
     <td align="center" width="4%">
       <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-LPIPS</div>
     </td>
-    <td><img src="./assets/vlpips_1k_new.png" alt="VLPIPS 1K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vlpips_2k_new.png" alt="VLPIPS 2K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vlpips_4k_new.png" alt="VLPIPS 4K" style="width: 100%; height: auto; display: block;" /></td>
-    <td><img src="./assets/vlpips_8k_new.png" alt="VLPIPS 8K" style="width: 100%; height: auto; display: block;" /></td>
+    <td><img src="./assets/vlpips_1k_new.png" alt="VLPIPS 1K" width="220" height="162" /></td>
+    <td><img src="./assets/vlpips_2k_new.png" alt="VLPIPS 2K" width="220" height="162" /></td>
+    <td><img src="./assets/vlpips_4k_new.png" alt="VLPIPS 4K" width="220" height="162" /></td>
+    <td><img src="./assets/vlpips_8k_new.png" alt="VLPIPS 8K" width="220" height="162" /></td>
   </tr>
 </table>
