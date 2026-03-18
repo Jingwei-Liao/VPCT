@@ -52,3 +52,20 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
     <td><img src="./assets/vlpips_8k_new.png" alt="VLPIPS 8K" width="220" height="162" /></td>
   </tr>
 </table>
+
+## Pretrained Models
+
+**Google Drive**:
+
+## Dataset
+
+- LIC360: https://github.com/limuhit/360-Image-Compression/tree/main
+- Flickr360: https://github.com/360SR/360SR-Challenge
+- CVIQ: https://github.com/sunwei925/CVIQDatabase
+- SaliencyVR: https://github.com/vsitzmann/vr-saliency?tab=readme-ov-file
+
+## Training & Testing
+
+We train the proposed model on the training set of the LIC360 dataset. We train each model for 100 epochs with a batch size of 16 on 1 NVIDIA A100 GPU. We then test the proposed model on the testing set of the LIC360 dataset and the testing sets of the Flickr360, CVIQ, and SaliencyVR datasets.
+
+Example command is provided in the [scripts](./scripts).
