@@ -66,6 +66,6 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 ## Training & Testing
 
-We train the proposed model on the training set of the LIC360 dataset. We train each model for 100 epochs with a batch size of 16 on 1 NVIDIA A100 GPU. We then test the proposed model on the testing set of the LIC360 dataset and the testing sets of the Flickr360, CVIQ, and SaliencyVR datasets.
+We train the proposed model on the training set of the LIC360 dataset. We train each model for 200 epochs with a batch size of 8 on 1 NVIDIA A100 GPU. We then test the proposed model on the testing set of the LIC360 dataset and the testing sets of the Flickr360, CVIQ, and SaliencyVR datasets.
 
 Example command is provided in the [scripts](./scripts).
