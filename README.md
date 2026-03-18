@@ -55,7 +55,7 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 ## Pretrained Models
 
-**Google Drive**:
+**Google Drive**: https://drive.google.com/file/d/17ueDUBezkDUFm-XOgYnAcsyPtWwCXURF/view?usp=sharing
 
 ## Dataset
 
