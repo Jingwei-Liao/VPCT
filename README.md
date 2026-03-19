@@ -11,7 +11,7 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 | Neural Viewport Codec | VPCT Module |
 | --- | --- |
-| ![VPCT General](./assets/vpct-General.png) | ![Overall Structure of VPCT](./assets/overall_structure_of_vpct.png) |
+| <img src="./assets/vpct-General.png" alt="VPCT General" width="320" /> | <img src="./assets/overall_structure_of_vpct.png" alt="Overall Structure of VPCT" width="420" /> |
 
 ## Performance Comparison
 
