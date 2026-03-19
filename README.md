@@ -9,49 +9,28 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 ## Neural Viewport Codec & VPCT Module
 
-<p align="center">
-  <img src="./assets/vpct-General.png" width="30%" />
-  <img src="./assets/overall_structure_of_vpct.png" width="48%" />
-</p>
+![VPCT General](./assets/vpct-General.png)
+![Overall Structure of VPCT](./assets/overall_structure_of_vpct.png)
 
 ## Performance Comparison
 
-<table width="100%">
-  <tr>
-    <td width="4%"></td>
-    <td align="center"><b>LIC360 (1K)</b></td>
-    <td align="center"><b>Flickr360 (2K)</b></td>
-    <td align="center"><b>CVIQ (4K)</b></td>
-    <td align="center"><b>SaliencyVR (8K)</b></td>
-  </tr>
-  <tr>
-    <td align="center" width="4%">
-      <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-PSNR</div>
-    </td>
-    <td><img src="./assets/vpsnr_1k_new.png" alt="VPSNR 1K" width="220" height="162" /></td>
-    <td><img src="./assets/vpsnr_2k_new.png" alt="VPSNR 2K" width="220" height="162" /></td>
-    <td><img src="./assets/vpsnr_4k_new.png" alt="VPSNR 4K" width="220" height="162" /></td>
-    <td><img src="./assets/vpsnr_8k_new.png" alt="VPSNR 8K" width="220" height="162" /></td>
-  </tr>
-  <tr>
-    <td align="center" width="4%">
-      <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-SSIM</div>
-    </td>
-    <td><img src="./assets/vssim_1k_new.png" alt="VSSIM 1K" width="220" height="162" /></td>
-    <td><img src="./assets/vssim_2k_new.png" alt="VSSIM 2K" width="220" height="162" /></td>
-    <td><img src="./assets/vssim_4k_new.png" alt="VSSIM 4K" width="220" height="162" /></td>
-    <td><img src="./assets/vssim_8k_new.png" alt="VSSIM 8K" width="220" height="162" /></td>
-  </tr>
-  <tr>
-    <td align="center" width="4%">
-      <div style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 12px; font-weight: bold; white-space: nowrap;">V-LPIPS</div>
-    </td>
-    <td><img src="./assets/vlpips_1k_new.png" alt="VLPIPS 1K" width="220" height="162" /></td>
-    <td><img src="./assets/vlpips_2k_new.png" alt="VLPIPS 2K" width="220" height="162" /></td>
-    <td><img src="./assets/vlpips_4k_new.png" alt="VLPIPS 4K" width="220" height="162" /></td>
-    <td><img src="./assets/vlpips_8k_new.png" alt="VLPIPS 8K" width="220" height="162" /></td>
-  </tr>
-</table>
+### V-PSNR
+
+| LIC360 (1K) | Flickr360 (2K) | CVIQ (4K) | SaliencyVR (8K) |
+| --- | --- | --- | --- |
+| ![VPSNR 1K](./assets/vpsnr_1k_new.png) | ![VPSNR 2K](./assets/vpsnr_2k_new.png) | ![VPSNR 4K](./assets/vpsnr_4k_new.png) | ![VPSNR 8K](./assets/vpsnr_8k_new.png) |
+
+### V-SSIM
+
+| LIC360 (1K) | Flickr360 (2K) | CVIQ (4K) | SaliencyVR (8K) |
+| --- | --- | --- | --- |
+| ![VSSIM 1K](./assets/vssim_1k_new.png) | ![VSSIM 2K](./assets/vssim_2k_new.png) | ![VSSIM 4K](./assets/vssim_4k_new.png) | ![VSSIM 8K](./assets/vssim_8k_new.png) |
+
+### V-LPIPS
+
+| LIC360 (1K) | Flickr360 (2K) | CVIQ (4K) | SaliencyVR (8K) |
+| --- | --- | --- | --- |
+| ![VLPIPS 1K](./assets/vlpips_1k_new.png) | ![VLPIPS 2K](./assets/vlpips_2k_new.png) | ![VLPIPS 4K](./assets/vlpips_4k_new.png) | ![VLPIPS 8K](./assets/vlpips_8k_new.png) |
 
 ## Pretrained Models
 
