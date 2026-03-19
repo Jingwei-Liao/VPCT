@@ -35,7 +35,7 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 ## Pretrained Models
 
-**Google Drive**: https://drive.google.com/file/d/17ueDUBezkDUFm-XOgYnAcsyPtWwCXURF/view?usp=sharing
+**Google Drive**: https://drive.google.com/file/d/1W4mIwmmUk7IwUY7e1Afm91QHJHR_y_OA/view?usp=sharing
 
 ## Dataset
 
@@ -48,4 +48,4 @@ This repository contains the code for our paper "Viewport-based Neural 360° Ima
 
 We train the proposed model on the training set of the LIC360 dataset. We train each model for 200 epochs with a batch size of 8 on 1 NVIDIA A100 GPU. We then test the proposed model on the testing set of the LIC360 dataset and the testing sets of the Flickr360, CVIQ, and SaliencyVR datasets.
 
-Example command is provided in the [scripts] folder.
+Example command is provided in the [scripts]() folder.
